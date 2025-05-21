@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="..." />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="
+        max-width: 700px;
+        margin: 40px auto;
+        font-family: Arial, sans-serif;
+        background: #fff;
+        padding: 32px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+      "
+    >
+      <h1 style="margin-top: 0">My Blog Post</h1>
+      <p style="color: #555">
+        Posted on June 8, 2024 by <strong>Author Name</strong>
+      </p>
+      <p>Welcome to my blog! Here is an interesting image you can view:</p>
+      <a
+        href="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+        target="_blank"
+        style="display: inline-block; margin: 16px 0"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600"
+          alt="Nature"
+          style="
+            max-width: 100%;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+          "
+        />
+      </a>
+      <p>Click the image to view it in full size.</p>
+      <hr />
+      <p>
+        This is a simple blog layout with an image link. You can add more
+        content, images, or links as you like!
+      </p>
+    </div>
+  </body>
+</html>
